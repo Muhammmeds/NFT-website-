@@ -30,7 +30,7 @@ body{
 
 .logo{
     display: flex;
-    gap: 5px;
+    gap: 7px;
     justify-content: center;
     align-items: center;
 }
@@ -38,20 +38,20 @@ body{
 .logo div:nth-of-type(1){
     background-color: white;
     color: #0D1728;
-    border-radius: 50%;
     padding: 8px 10px;
+    border-radius: 50%;
 }
 
 
-.logo div:nth-of-type(1) span{
-    font-weight: bolder;
-    font-size: 20px;
-    font-family: var(--font-family);
+.logo div:nth-of-type(1) img{
+    width: 15px;
+    height: 15px;
 }
 
 .logo div:nth-of-type(2) span{
-    font-weight: bold;
-    letter-spacing: 1px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family: var(--font-family);
     font-size: 20px;
     font-style: italic;
 }
@@ -69,6 +69,11 @@ body{
     justify-content: center;
     gap: 30px;
 }
+.list ul > :not(:first-child){
+    color: #7F848D;
+
+}
+
 .trial{
     display: flex;
     align-items: center;
@@ -103,6 +108,8 @@ body{
     font-weight: 200;
     font-family: var(--font-family);
     word-spacing: 2px;
+    color: #7F848D;
+
     
 }
 
