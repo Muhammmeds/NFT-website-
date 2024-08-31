@@ -1255,7 +1255,7 @@ body{
     width: fit-content;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
 }
 
 .container10 > div:nth-of-type(1) > div:nth-of-type(1)> div:nth-of-type(1)> div:nth-of-type(1){
