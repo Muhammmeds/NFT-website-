@@ -1387,17 +1387,12 @@ body{
 }
 
 @media (max-width : 600px){
-    /* .container1,.container2,.container3,.container4,.container5,.container6,.container7,.container8,.container9,.container10{
-        width: 100%;
-        box-sizing: border-box;
-    } */
+  
     body{
-        width: 109%;
+        width: 104%;
         padding: 0;
         margin: 0;
         height: fit-content;
-        /* box-sizing: border-box; */
-        /* border: 3px solid red; */
     }
     .container1{
         box-sizing: border-box;
